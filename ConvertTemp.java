@@ -7,6 +7,7 @@ public class ConvertTemp{
 		System.out.print("Temperature in Celcius:");
 		double celcius=in.nextDouble();
 		double farenheit=(celcius*1.8)+32;
-		System.out.print(farenheit);
+		System.out.printf("Temperature in Farenheit: %f", farenheit);
+		
 	}
 }
